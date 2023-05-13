@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "subtitle-bot"
+version = "0.1.0"
+description = "Telegram Bot to create subtitles on video messages"
+authors = ["arutyunyan <8david@inbox.ru>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
